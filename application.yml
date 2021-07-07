@@ -1,16 +1,16 @@
 spring:
-    profiles:
-        active:
-        - dev
+  profiles:
+      active:
+      - dev
         
 ---
 spring:
-    profiles: dev
-    application:
-     name: microserver-config-dev
+  profiles: dev
+  application:
+    name: microserver-config-dev
      
 ---
 spring:
-    profiles: test
-    application:
-     name: microserver-config-test
+  profiles: test
+  application:
+    name: microserver-config-test
